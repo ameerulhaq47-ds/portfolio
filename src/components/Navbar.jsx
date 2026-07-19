@@ -15,7 +15,9 @@ export default function Navbar() {
   return (
     <nav className={`navbar ${scrolled ? "scrolled" : ""}`}>
       <div className="nav-content">
-        <a href="#home" className="logo">Dev<span>Portfolio</span></a>
+
+        <a href="#home" className="logo">Ameer's <span>Portfolio</span><span className="wave">👋 </span><span> </span></a>
+        {/* <a href="#home" className="logo">Ameer's <span>Portfolio</span></a> */}
         
         <div className={`nav-links ${menuOpen ? "open" : ""}`}>
           {navLinks.map(link => (

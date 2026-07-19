@@ -425,3 +425,71 @@ textarea:focus-visible,
   .hero-buttons { flex-direction: column; width: 100%; }
   .hero-buttons .btn { width: 100%; text-align: center; }
 }
+
+.wave {
+  display: inline-block;
+  animation: wave 2.5s infinite;
+  transform-origin: 70% 70%;
+}
+
+@keyframes wave {
+  0% { transform: rotate(0deg); }
+  10% { transform: rotate(14deg); }
+  20% { transform: rotate(-8deg); }
+  30% { transform: rotate(14deg); }
+  40% { transform: rotate(-4deg); }
+  50% { transform: rotate(10deg); }
+  60% { transform: rotate(0deg); }
+  100% { transform: rotate(0deg); }
+}
+
+/* .wave {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #fff;
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+  opacity: 0;
+  animation: logoFadeIn 0.8s ease forwards;
+}
+
+.wave span {
+  color: #6c5ce7; /* swap for your accent color */
+  transition: color 0.3s ease;
+}
+
+.wave::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0;
+  height: 2px;
+  background: #6c5ce7;
+  transition: width 0.4s ease;
+}
+
+.wave:hover::after {
+  width: 100%;
+}
+
+.wave:hover span {
+  color: #a29bfe;
+}
+
+.wave:hover {
+  transform: translateY(-1px);
+  transition: transform 0.3s ease;
+}
+
+@keyframes waveFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+} */

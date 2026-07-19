@@ -9,7 +9,7 @@ export const personalInfo = {
   location: "Tamil Nadu, India",
   github: "https://github.com/ameerulhaq47-ds",
   linkedin: "www.linkedin.com/in/ameerulhaq081",
-  resume: "/portfolio/src/data/Ameer_Ul_Haq.pdf"
+  resume: "/resume.pdf"
 };
 
 export const aboutInfo = {
@@ -47,7 +47,7 @@ export const experience = [
 export const projects = [
   {
     title: "Brain Tumor Detection Using Deep Learning",
-    image: "https://images.unsplash.com/photo-1557821552-17105176677c?w=500&q=80",
+    image: "/mri.jpeg",
     desc: "Engineered a predictive convolutional model trained to accurately classify brain tumor types from complex MRI scans \n Seamlessly integrated a machine learning pipeline into a web-based presentation layer for real-world application workflows.",
     tech: ["Python, Deep Learning, Web Integrations"],
     github: "#",
@@ -55,7 +55,7 @@ export const projects = [
   },
   {
     title: "Flight Reservation System",
-    image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=500&q=80",
+    image: "/flight.jpeg",
     desc: "Developed a scalable, end-to-end flight booking backend platform incorporating passenger management and transaction flows. \n Implemented strict operational logic constraints for seat availability validation, data persistence, and capacity checks.",
     tech: ["Java, Spring Boot, MySQL, JPA"],
     github: "#",
