@@ -456,10 +456,10 @@ textarea:focus-visible,
 
 .wave span {
   color: #6c5ce7; /* swap for your accent color */
-  transition: color 0.3s ease;
-}
+  /* transition: color 0.3s ease;
+} */
 
-.wave::after {
+/* .wave::after {
   content: '';
   position: absolute;
   left: 0;
@@ -492,4 +492,4 @@ textarea:focus-visible,
     opacity: 1;
     transform: translateY(0);
   }
-} */
+} */ 
